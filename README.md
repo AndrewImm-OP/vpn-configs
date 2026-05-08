@@ -9,7 +9,7 @@ The aggregation logic itself is closed-source and runs as a private Docker image
 ## Subscription URL
 
 ```
-https://raw.githubusercontent.com/your-username/vpn-configs/main/live_merged.txt
+https://raw.githubusercontent.com/AndrewImm-OP/vpn-configs/main/live_merged.txt
 ```
 
 ### v2rayNG / NekoBox / Hiddify
