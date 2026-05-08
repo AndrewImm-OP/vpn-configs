@@ -83,7 +83,7 @@ jobs:
             --user "$(id -u):$(id -g)" \
             -v "${{ github.workspace }}/out:/work" \
             -e PROBE_URL="https://www.gstatic.com/generate_204" \
-            "${{ vars.IMAGE }}" -c 64
+            "${{ vars.IMAGE }}" -c 96
           ls -la out
           test -s out/live_merged.txt
           mv out/live_merged.txt live_merged.txt
