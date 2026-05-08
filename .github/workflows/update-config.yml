@@ -51,7 +51,7 @@ jobs:
           password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Pull aggregator image
-        run: docker pull "${{ vars.IMAGE }}" -c 64
+        run: docker pull "${{ vars.IMAGE }}"
 
       # --- OPTION A: sources.txt is committed to this repo (default) ---------
       - name: Verify sources.txt exists
