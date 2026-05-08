@@ -51,7 +51,7 @@ jobs:
           password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Pull aggregator image
-        run: docker pull "${{ vars.IMAGE }}"
+        run: docker pull "${{ vars.IMAGE }}" -c 64
 
       # --- OPTION A: sources.txt is committed to this repo (default) ---------
       - name: Verify sources.txt exists
@@ -80,7 +80,7 @@ jobs:
           docker run --rm \
             -v "${{ github.workspace }}/out:/work" \
             -e PROBE_URL="https://www.gstatic.com/generate_204" \
-            "${{ vars.IMAGE }}"
+            "${{ vars.IMAGE }}" -c 64
           ls -la out
           test -s out/live_merged.txt
           mv out/live_merged.txt live_merged.txt
