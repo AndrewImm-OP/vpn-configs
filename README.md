@@ -18,8 +18,7 @@ Add as a **subscription** (not a single server). Set update interval to 60 minut
 
 ## Files
 
-- `sources.txt` — list of upstream subscription URLs (one per line, `#` for comments).
+- `sources.txt` — list of upstream subscription URLs.
 - `live_merged.txt` — auto-generated, verified subscription. **Do not edit by hand.**
 - `.github/workflows/update-config.yml` — hourly cron that pulls the aggregator image and rebuilds `live_merged.txt`.
 
-That's it. No source code in this repo.
