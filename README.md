@@ -1,6 +1,6 @@
 # vpn-configs
 
-[![Update VPN Configs](https://github.com/your-username/vpn-configs/actions/workflows/update-config.yml/badge.svg)](https://github.com/your-username/vpn-configs/actions/workflows/update-config.yml)
+[![Update VPN Configs](https://github.com/AndrewImm-OP/vpn-configs/actions/workflows/update-config.yml/badge.svg)](https://github.com/AndrewImm-OP/vpn-configs/actions/workflows/update-config.yml)
 
 Public showcase repo: serves a single, hourly-refreshed VPN subscription file.
 
