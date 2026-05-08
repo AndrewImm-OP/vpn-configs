@@ -1,10 +1,6 @@
-# vpn-configs
+# White-List bypass cfg's
 
 [![Update VPN Configs](https://github.com/AndrewImm-OP/vpn-configs/actions/workflows/update-config.yml/badge.svg)](https://github.com/AndrewImm-OP/vpn-configs/actions/workflows/update-config.yml)
-
-Public showcase repo: serves a single, hourly-refreshed VPN subscription file.
-
-The aggregation logic itself is closed-source and runs as a private Docker image — only the **result** lives here.
 
 ## Subscription URL
 
@@ -12,7 +8,7 @@ The aggregation logic itself is closed-source and runs as a private Docker image
 https://raw.githubusercontent.com/AndrewImm-OP/vpn-configs/main/live_merged.txt
 ```
 
-### v2rayNG / NekoBox / Hiddify
+### v2rayNG / NekoBox / Hiddify / Happ / etc.
 
 Add as a **subscription** (not a single server). Set update interval to 60 minutes.
 
