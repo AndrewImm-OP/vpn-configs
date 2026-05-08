@@ -1,6 +1,6 @@
 # vpn-aggregator — generated 2026-05-08T19:44:25.598Z
 # total: 4396 verified configs
-# https://github.com/your-username/vpn-aggregator
+# https://github.com/AndrewImm-OP/vpn-aggregator
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@38.135.24.131:443?#3456 | 🇺🇸 USA | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoazFTZHlSV2JZaTNJZ3hlb3c5SmRO@142.93.73.182:45389?#0550 | 🇺🇸 USA | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443?#3128 | 🇺🇸 USA | SS | 🌟 Gemini | 📺 YT | TG: @YoutubeUnBlockRu
