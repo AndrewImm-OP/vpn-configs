@@ -77,7 +77,10 @@ jobs:
           set -euo pipefail
           mkdir -p out
           cp sources.txt out/sources.txt
+          # bun (uid 1000 in image) vs runner (uid 1001 on host) → use host uid
+          chmod 0777 out
           docker run --rm \
+            --user "$(id -u):$(id -g)" \
             -v "${{ github.workspace }}/out:/work" \
             -e PROBE_URL="https://www.gstatic.com/generate_204" \
             "${{ vars.IMAGE }}" -c 64
